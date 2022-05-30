@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height:4vh;
+    background-color:#2874f0;;
+    color:white;
+    font-family: 'Lato';
+    display:flex;
+    justify-content: center;
+    align-items:center
+} 
+header{
+    height:8vh;
+    background-color:#2874f0;;
+    border:1px solid red;
+    font-family: 'Lato';
+   
+}
+nav{
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+ 
+}
+   
+ ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+ li{
+    list-style:none;
+    color:white;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top:2vh;
+    font-size: 1vh;
+   
+} 
+li:hover{
+   color:darkblue;
+   
+}  
+.logo{
+  padding-left:1vw;
+  padding-top:2vh;
+}
+.container{
+    min-height:84vh ;
+    background-color:white;
+   
+    
+}
+.search{
+    padding-top: 1vh;
+    padding-left:2vw;
+    display:flex;
+    align-items: center;
+    margin-top:1.5vh;
+}
+.button{
+    margin-left:1.2vw;
+    font-size: 1.5vh;
+    font-family:'Lato';
+    padding:2px;
+    background-color:#2874f0 ;
+    
+}
+.text{
+    width: 25vw;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:black;
+    padding:2px;
+    font-size:1.5vh;
+}
+.slider{
+   margin:auto;
+   width:80vw;
+   margin-top: 10px;
+  
+}
+.card{
+    margin: auto;
+width: 90vw;
+background-color:cornflowerblue;
+padding:5px;
+}
+.card h2{
+    display:flex;
+    justify-content: center;
+    margin-bottom:5px;
+    background-color: blanchedalmond;
+}
+.card-item{
+    display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign{
+    margin-top: 8px;
+margin-left: 20vw;
+font-family: "Lato";
+font-size: 2vh;
+}
+.Study{
+    margin-bottom: 4px;
+}
+.mobile{
+    margin-bottom: 4px;
+}
+.sports{
+    margin-bottom: 4px;
+}
+.purchase{
+    margin:1px;
+    background-color: rgb(29, 26, 194);
+    color: white;
+}
